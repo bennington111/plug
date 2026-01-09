@@ -5,7 +5,7 @@
 **Прямі посилання:**
 - **[new_interface.js](https://bennington111.github.io/plug/new_interface.js)** - Netflix-подібний інтерфейс
 - **[cardify.js](https://bennington111.github.io/plug/cardify.js)** - Розширені картки фільмів
-
+- **[collections.js](https://bennington111.github.io/plug/collections.js)** - Розширені картки фільмів
 **Як встановити:**
 1. Відкрийте Lampa/Lampac
 2. Перейдіть у **Налаштування → Розширення**
@@ -38,3 +38,16 @@
 
 **Налаштування:**
 - **Показ трейлера:** Увімкнення/вимкнення через меню **Налаштування → Cardify → Показувати трейлер**
+
+### 3. Плагін `collections.js`
+
+<p align="center">
+  <img src="https://bennington111.github.io/uaonline/Collections.png" alt="Колекції" width="600" />
+</p>
+
+Додає колекції фільмів/серіалів: Netflix, Apple, Prime, Disney, Hulu, Hbo + Еротика.
+
+**Примітка:** Вимкнути оригінальний плагін колекцій, можуть бути конфлікти.
+
+**Налаштування:**
+- **Показ колекцій:** Увімкнення/вимкнення через меню **Налаштування → Підбірки → Показати/Приховати**
