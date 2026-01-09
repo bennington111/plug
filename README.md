@@ -6,6 +6,7 @@
 - **[new_interface.js](https://bennington111.github.io/plug/new_interface.js)** - Netflix-подібний інтерфейс
 - **[cardify.js](https://bennington111.github.io/plug/cardify.js)** - Розширені картки фільмів
 - **[collections.js](https://bennington111.github.io/plug/collections.js)** - Розширені картки фільмів
+  
 **Як встановити:**
 1. Відкрийте Lampa/Lampac
 2. Перейдіть у **Налаштування → Розширення**
