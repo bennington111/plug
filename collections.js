@@ -72,6 +72,17 @@
             source: "tmdb"
         },
 		{
+    "id": "sports_movies",
+    "title": "Спортивні фільми",
+    "icon": `<svg height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="#4CAF50" stroke-width="2"/>
+              <path d="M12 2 L2 12 L12 22 L22 12 Z" fill="#4CAF50" opacity="0.3"/>
+              <path d="M7 7 L17 17 M17 7 L7 17" stroke="#FFFFFF" stroke-width="2"/>
+            </svg>`,  // простий іконка з м'ячем/стадіоном (можна замінити на свій)
+    "url": "discover/movie?language=uk-UA&with_keywords=6075&sort_by=popularity.desc&vote_count.gte=30&include_adult=false",
+    "source": "tmdb"
+        },
+		{
 			id: 'erotica',
 			title: 'Еротика',
 			icon: `<svg height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -187,4 +198,5 @@
             if (e.type === "ready") initPlugin();
         });
     }
+
 }();
