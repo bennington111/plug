@@ -79,7 +79,7 @@
 		              <path d="M12 2 L2 12 L12 22 L22 12 Z" fill="#4CAF50" opacity="0.3"/>
 		              <path d="M7 7 L17 17 M17 7 L7 17" stroke="#FFFFFF" stroke-width="2"/>
             	  </svg>`,  // проста іконка з м'ячем/стадіоном (можна замінити на свою)
-    		url: "discover/movie?language=uk-UA&with_keywords=6075&sort_by=popularity.desc&vote_count.gte=30&include_adult=false",
+    		url: "discover/movie?language=uk-UA&with_keywords=6075&sort_by=vote_average.desc&vote_count.gte=50&include_adult=false",
     		source: "tmdb"
         },
 		{
@@ -200,6 +200,7 @@
     }
 
 }();
+
 
 
 
