@@ -2,6 +2,15 @@
     "use strict";
 
     const menuItems = [
+	    {
+            id: 'marvel',
+            title: 'Marvel Studios',
+            icon: `<svg height="30" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1.5-12.5l-3.5 9h2.1l.8-2.2h3.2l.8 2.2h2.1l-3.5-9h-2zm.8 2.4l1.1 3.1h-2.2l1.1-3.1z"/>
+                   </svg>`,
+            url: "discover/movie?with_companies=420&sort_by=primary_release_date.desc",
+            source: "tmdb"
+        },
         {
             id: 'netflix',
             title: 'Netflix серіали',
@@ -24,6 +33,20 @@
 			url: "discover/movie?with_watch_providers=8&watch_region=UA&sort_by=popularity.desc",
 			source: "tmdb"
 		},
+		{
+            id: 'paramount',
+            title: 'Paramount+',
+			icon: `<svg height="30" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 3L2 19h20L12 3zm0 3.8l6.8 10.7H5.2L12 6.8zM11 10v2H9v2h2v2h2v-2h2v-2h-2v-2h-2z"/>
+						<circle cx="12" cy="4" r="0.8"/>
+						<circle cx="8" cy="6" r="0.8"/>
+						<circle cx="16" cy="6" r="0.8"/>
+						<circle cx="5" cy="9" r="0.8"/>
+						<circle cx="19" cy="9" r="0.8"/>
+					   </svg>`,
+            url: "discover/tv?with_networks=4330",
+            source: "tmdb"
+        },
         {
             id: 'disney',
             title: 'Disney+',
